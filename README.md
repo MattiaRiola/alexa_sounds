@@ -18,3 +18,4 @@ ffmpeg -i input.mp3 -map 0:a -ac 1 -ar 24000 -b:a 48k -codec:a libmp3lame output
 | `ado_meme_48k.mp3` | meme "Ado Odo Odo Ado Abo Ado Odo Avocado Ado Obo Ado" — `script.ado_meme_audio` |
 | `mj/*.mp3` | 35 clip Michael Jackson per la modalità "Michael creepy house" (vedi `mj/README.md`) |
 | `ado/*.mp3` | 10 clip di Ado per la modalita "Ado creepy house" (vedi `ado/README.md`) |
+| `sveglia/ado_ohayosekai_48k.mp3` | "Ohayosekai" di Ado — buongiorno/sveglia (`script.buongiorno_ado`) |
