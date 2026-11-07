@@ -7,6 +7,10 @@ MP3 MPEG-2, mono, 24000 Hz, 48 kbps.
 
 Usati da `script.mj_creepy_engine` in Home Assistant (modalità "Michael creepy house").
 
+**Durata minima (07/11/2026).** Alexa rifiuta gli audio molto corti: sotto circa 1 s l'Echo
+risponde "non riesco ad accedere alla skill per riprodurre quell'audio". Il solo clip sotto la
+soglia (`mj_14`, 0,53 s) è stato portato a 1,75 s con silenzio in coda.
+
 | File | Video | Durata |
 |---|---|---|
 | `mj_01.mp3` | 0:00 | 1.25 s |
@@ -22,7 +26,7 @@ Usati da `script.mj_creepy_engine` in Home Assistant (modalità "Michael creepy 
 | `mj_11.mp3` | 21:58 | 1.46 s |
 | `mj_12.mp3` | 27:02 | 1.92 s |
 | `mj_13.mp3` | 29:13 | 3.86 s |
-| `mj_14.mp3` | 31:06 | 0.53 s |
+| `mj_14.mp3` | 31:06 | 1.75 s (0.53 di suono) |
 | `mj_15.mp3` | 33:44 | 1.22 s |
 | `mj_16.mp3` | 35:45 | 2.83 s |
 | `mj_17.mp3` | 36:11 | 2.21 s |
